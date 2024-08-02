@@ -1,0 +1,100 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3e5f5;
+    color: #333;
+}
+
+header {
+    background-color: #9573a9;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro, .featured {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cupcake-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #fbf9fc;
+}
+
+h2 {
+    font-size: 2em;
+    color: #9573a9;
+}
+
+p,
+ul {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.about-photo {
+    width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #9573a9;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

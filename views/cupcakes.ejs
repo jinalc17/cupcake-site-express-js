@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jinny's Cupcakes</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <%- include('partials/header') %>
+        <main>
+            <section class="featured">
+                <h2>Our Cupcake Selection</h2>
+                <div class="cupcake-grid">
+                    <div class="cupcake card">
+                        <img src="/images/blueberry.jpg" alt="Blueberry Bliss">
+                        <h3>Blueberry Bliss</h3>
+                        <p>A delightful cupcake infused with fresh blueberries and topped with a tangy lemon frosting.
+                        </p>
+                    </div>
+                    <div class="cupcake card">
+                        <img src="/images/dark-chocolate.jpg" alt="Chocolate Delight">
+                        <h3>Chocolate Delight</h3>
+                        <p>Rich chocolate cupcakes topped with a smooth chocolate ganache, perfect for chocolate lovers.
+                        </p>
+                    </div>
+                    <div class="cupcake card">
+                        <img src="/images/strawberry.jpg" alt="Strawberry Surprise">
+                        <h3>Strawberry Surprise</h3>
+                        <p>Light and fluffy strawberry cupcakes with a surprise strawberry filling, topped with whipped
+                            cream.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <%- include('partials/footer') %>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jinny's Cupcakes</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <%- include('partials/header') %>
+        <main>
+            <div style="margin-bottom: 50px;">
+                <section class="intro">
+                    <h2>Welcome to Jinny's Cupcakes!</h2>
+                    <p>At Jinny's Cupcakes, we bake fresh, delicious cupcakes daily using only the finest ingredients.
+                        Come taste the difference!</p>
+                </section>
+
+                <section class="featured">
+                    <h2>Our Delicious Cupcakes</h2>
+                    <p><a href="/cupcakes">Check out our amazing selection of cupcakes!</a></p><br>
+                    <div class="cupcake-grid">
+                        <div class="cupcake card">
+                            <img src="/images/blueberry.jpg" alt="Blueberry Bliss">
+                            <h3>Blueberry Bliss</h3>
+                        </div>
+                        <div class="cupcake card">
+                            <img src="/images/dark-chocolate.jpg" alt="Chocolate Delight">
+                            <h3>Chocolate Delight</h3>
+                        </div>
+                        <div class="cupcake card">
+                            <img src="/images/strawberry.jpg" alt="Strawberry Surprise">
+                            <h3>Strawberry Surprise</h3>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <%- include('partials/footer') %>
+</body>
+
+</html>
